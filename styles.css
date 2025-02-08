@@ -1,0 +1,16 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f0f0f0;
+    }
+
+    .gradient-text {
+      font-size: 3em;
+      font-weight: bold;
+      background: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
